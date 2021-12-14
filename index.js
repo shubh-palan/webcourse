@@ -1,15 +1,74 @@
-// Named Invoked 
-function add(a=4,b=5){
-    console.log(a+b);
-};
+// Map Function 
+let arr = [4,5,6];
 
-// Immediatly Invoked 
-(function add(a=4,b=5){
-    console.log(a+b);
-})();
+// Set Timeout 
 
-// Anonymous Functions
-let add = function(a,b){
-    console.log(a+b);
-}
+// Function Will be called once after 10000 ms 
+// setTimeout(()=>{
+//     console.log("Testing")
+// },10000);
 
+setInterval(()=>{
+    console.log("Interval")
+    console.log("Interval 1")
+},1)
+
+// setInterval()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// arr.forEach((element)=>{
+//     console.log(element)
+// })
+
+// filters
+// let output = arr.map((element,i,a)=>{
+//     // console.log(element,i,a)
+//     return element-1;
+// })
+// console.log(output,arr);
+// arr.map(/)
+
+// Filter 
+// let op = arr.filter((v)=>{
+//     return v-6;
+// })
+// console.log(op);
+
+
+// function pari(param=false, callback){
+//     if(param){
+//         console.log(callback);
+//         callback();
+//     }
+// }
+
+// document.getElementById("btn").addEventListener("click",()=>{
+
+// })
+
+
+// function shubh() {
+//     console.log("shubh");
+// }
+
+// function jay() {
+//     console.log("jay");
+// }
+
+// pari(true,()=>{
+//     console.log("hello");
+// });
+// pari(true,jay);
