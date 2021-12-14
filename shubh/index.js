@@ -8,10 +8,10 @@ let arr = [4,5,6];
 //     console.log("Testing")
 // },10000);
 
-setInterval(()=>{
-    console.log("Interval")
-    console.log("Interval 1")
-},1)
+// setInterval(()=>{
+//     console.log("Interval")
+//     console.log("Interval 1")
+// },1000)
 
 // setInterval()
 
